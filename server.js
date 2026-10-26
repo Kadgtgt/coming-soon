@@ -19,6 +19,6 @@ const server = http.createServer((req, res) => {
   });
 });
 
-server.listen(port, "0.0.0.0", () => {
+server.listen(port, "1000", () => {
   console.log(`Website is running on port ${port}`);
 });
